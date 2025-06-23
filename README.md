@@ -1,41 +1,95 @@
-# Business Intelligence (BI) Project
 
-This Business Intelligence (BI) project utilizes **Jupyter Notebooks** to apply advanced data analysis and machine learning techniques. It covers the complete data pipeline: from preprocessing and cleaning to visualizing and applying various learning algorithms for real-world insights.
+# 🧠 Health & Fitness Data Mining Project
 
-## 🔍 Features
-- **Data Preprocessing**: Handling missing values, normalization, encoding, and outlier detection.
-- **Exploratory Data Analysis (EDA)**: Deep analysis using visualization tools to discover patterns, trends, and correlations.
-- **Data Visualization**: Built using `Matplotlib` and `Seaborn` for graphical data representation.
-- **Machine Learning Algorithms**:
-  - **Classification**:
-    - Decision Tree
-    - Random Forest
-  - **Regression**:
-    - Linear Regression
-    - Other relevant regression models
-  - **Clustering**:
-    - KMeans Clustering
-    - DBSCAN (Density-Based Spatial Clustering)
-  - **Association Rule Learning**:
-    - Apriori Algorithm
+This project applies various **machine learning and data mining techniques** to a health and fitness dataset to uncover patterns, make predictions, and cluster users based on fitness and lifestyle factors.
 
-## 🧠 Technologies & Libraries
-- **Jupyter Notebook**
-- **Python**
-- **Libraries**:
-  - `Pandas` – Data manipulation
-  - `NumPy` – Numerical operations
-  - `Matplotlib` & `Seaborn` – Data visualization
-  - `Scikit-learn` – Machine learning models (classification, regression, clustering)
-  - `mlxtend` – Association rules (Apriori)
-  - `SciPy` – Clustering support (DBSCAN, etc.)
+---
 
-### Prerequisites
-- Python 3.8+
+## 🖼️ Project Overview
+
+![Overview](screenshots/01_overview.png)
+
+---
+
+## 📊 Dataset Preview
+
+The dataset includes attributes like:
+- Demographics: Age, Gender
+- Physical Stats: Weight, Height, BMI
+- Workout Habits: Frequency, Duration, Type
+- Health Metrics: BPM (Avg & Max), Calories Burned, Water Intake
+
+![Dataset](screenshots/02_dataset_preview.png)
+
+---
+
+## 🔍 Classification – Decision Tree
+
+Using a Decision Tree Classifier to categorize individuals based on their health/fitness level.
+
+**Accuracy:** 90%  
+**Best Class Performance:** Class 3 (F1 = 1.00)
+
+📌 Metrics:
+![Confusion Matrix Text](screenshots/03_dt_conf_matrix_text.png)  
+📊 Visual:
+![Confusion Matrix Plot](screenshots/04_dt_conf_matrix_plot.png)
+
+---
+
+## 📈 Feature Importance (Random Forest)
+
+Top contributing features in classification:
+- Fat Percentage
+- Session Duration
+- Workout Frequency
+- Calories Burned
+
+![Feature Importance](screenshots/05_feature_importance.png)
+
+---
+
+## 📉 Regression – Predicting a Continuous Outcome
+
+### Linear Regression
+- R² Score: 0.82
+- MAE: 2.86
+- RMSE: 3.90
+
+### Decision Tree Regressor
+- R² Score: 0.93
+- MAE: 1.52
+- RMSE: 2.50
+
+📋 Metrics:
+![Regression Metrics](screenshots/06_regression_metrics.png)  
+📈 Linear Regression Result:
+![LR Plot](screenshots/07_lr_actual_vs_pred.png)
+
+---
+
+## 📊 Clustering (K-Means)
+
+### 1. Elbow Method  
+![Elbow](screenshots/08_kmeans_elbow.png)
+
+### 2. Silhouette Score  
+![Silhouette](screenshots/09_kmeans_silhouette.png)
+
+### 3. Final Clusters Visualized with PCA  
+![Clusters](screenshots/10_kmeans_clusters.png)
+
+---
+
+## 🧰 Tech Stack
+
+- Python
+- Scikit-learn
+- Pandas / NumPy / Matplotlib / Seaborn
 - Jupyter Notebook
-- pip
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/NA7RAWY/BI.git
-   cd BI
+---
+
+## 📬 Contact
+
+[GitHub – NA7RAWY](https://github.com/NA7RAWY)
