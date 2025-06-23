@@ -5,12 +5,6 @@ This project applies various **machine learning and data mining techniques** to 
 
 ---
 
-## 🖼️ Project Overview
-
-![Overview](screenshots/01_overview.png)
-
----
-
 ## 📊 Dataset Preview
 
 The dataset includes attributes like:
