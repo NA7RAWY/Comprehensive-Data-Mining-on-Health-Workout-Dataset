@@ -1,95 +1,74 @@
+# Health & Fitness Data Mining
 
-# 🧠 Health & Fitness Data Mining Project
+This project explores various machine learning and data mining techniques on a health and fitness dataset. The analysis covers supervised learning (classification & regression) and unsupervised learning (clustering), along with visualizations and evaluation metrics.
 
-This project applies various **machine learning and data mining techniques** to a health and fitness dataset to uncover patterns, make predictions, and cluster users based on fitness and lifestyle factors.
+## 📊 Dataset Overview
 
----
+The dataset includes features related to health, nutrition, and physical activity. A sample preview is shown below:
 
-## 🖼️ Project Overview
-
-![Overview](screenshots/01_overview.png)
-
----
-
-## 📊 Dataset Preview
-
-The dataset includes attributes like:
-- Demographics: Age, Gender
-- Physical Stats: Weight, Height, BMI
-- Workout Habits: Frequency, Duration, Type
-- Health Metrics: BPM (Avg & Max), Calories Burned, Water Intake
-
-![Dataset](screenshots/02_dataset_preview.png)
+![Dataset Preview](02_dataset_preview.png)
 
 ---
 
-## 🔍 Classification – Decision Tree
+## 🌳 Decision Tree Classifier
 
-Using a Decision Tree Classifier to categorize individuals based on their health/fitness level.
+A Decision Tree model was trained to classify health conditions.
 
-**Accuracy:** 90%  
-**Best Class Performance:** Class 3 (F1 = 1.00)
+* **Accuracy:** 90%
 
-📌 Metrics:
-![Confusion Matrix Text](screenshots/03_dt_conf_matrix_text.png)  
-📊 Visual:
-![Confusion Matrix Plot](screenshots/04_dt_conf_matrix_plot.png)
+* **Confusion Matrix:**
 
----
+  ![Confusion Matrix - Plot](04_dt_conf_matrix_plot.png)
+  ![Confusion Matrix - Text](03_dt_conf_matrix_text.png)
 
-## 📈 Feature Importance (Random Forest)
+* **Classification Report:**
 
-Top contributing features in classification:
-- Fat Percentage
-- Session Duration
-- Workout Frequency
-- Calories Burned
-
-![Feature Importance](screenshots/05_feature_importance.png)
+  !\[Classification Report]\(Screenshot 2025-06-23 163851.png)
 
 ---
 
-## 📉 Regression – Predicting a Continuous Outcome
+## 📈 Regression Analysis
 
-### Linear Regression
-- R² Score: 0.82
-- MAE: 2.86
-- RMSE: 3.90
+A regression model was used to predict a continuous health-related variable. Evaluation metrics:
 
-### Decision Tree Regressor
-- R² Score: 0.93
-- MAE: 1.52
-- RMSE: 2.50
+* **Metrics:**
+  ![Regression Metrics](06_regression_metrics.png)
 
-📋 Metrics:
-![Regression Metrics](screenshots/06_regression_metrics.png)  
-📈 Linear Regression Result:
-![LR Plot](screenshots/07_lr_actual_vs_pred.png)
+* **Actual vs Predicted Plot:**
+  ![Actual vs Predicted](07_lr_actual_vs_pred.png)
 
 ---
 
-## 📊 Clustering (K-Means)
+## 🔍 Feature Importance
 
-### 1. Elbow Method  
-![Elbow](screenshots/08_kmeans_elbow.png)
+The most impactful features were extracted using the Decision Tree model:
 
-### 2. Silhouette Score  
-![Silhouette](screenshots/09_kmeans_silhouette.png)
-
-### 3. Final Clusters Visualized with PCA  
-![Clusters](screenshots/10_kmeans_clusters.png)
+![Feature Importance](05_feature_importance.png)
 
 ---
 
-## 🧰 Tech Stack
+## 🔗 K-Means Clustering
 
-- Python
-- Scikit-learn
-- Pandas / NumPy / Matplotlib / Seaborn
-- Jupyter Notebook
+K-Means clustering was applied to group users into clusters based on their health profile.
+
+* **Elbow Method:**
+  ![KMeans Elbow](08_kmeans_elbow.png)
+
+* **Silhouette Scores:**
+  ![KMeans Silhouette](09_kmeans_silhouette.png)
+
+* **Final Clusters Visualization (with PCA):**
+  ![KMeans Clusters](10_kmeans_clusters.png)
 
 ---
 
-## 📬 Contact
+## 📦 Tools & Technologies
 
-[GitHub – NA7RAWY](https://github.com/NA7RAWY)
+* Python (Pandas, Scikit-learn, Matplotlib, Seaborn)
+* Jupyter Notebook
+
+---
+
+## ✅ Conclusion
+
+This project demonstrates an end-to-end machine learning workflow including preprocessing, modeling, evaluation, and visualization for health and fitness data. It highlights how data mining techniques can extract actionable insights to improve wellness and lifestyle.
