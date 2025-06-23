@@ -6,7 +6,7 @@ This project explores various machine learning and data mining techniques on a h
 
 The dataset includes features related to health, nutrition, and physical activity. A sample preview is shown below:
 
-![Dataset Preview](02_dataset_preview.png)
+![Dataset Preview](screenshots1/02_dataset_preview.png)
 
 ---
 
@@ -18,8 +18,8 @@ A Decision Tree model was trained to classify health conditions.
 
 * **Confusion Matrix:**
 
-  ![Confusion Matrix - Plot](04_dt_conf_matrix_plot.png)
-  ![Confusion Matrix - Text](03_dt_conf_matrix_text.png)
+  ![Confusion Matrix - Plot](screenshots1/04_dt_conf_matrix_plot.png)
+  ![Confusion Matrix - Text](screenshots1/03_dt_conf_matrix_text.png)
 
 * **Classification Report:**
 
@@ -32,10 +32,10 @@ A Decision Tree model was trained to classify health conditions.
 A regression model was used to predict a continuous health-related variable. Evaluation metrics:
 
 * **Metrics:**
-  ![Regression Metrics](06_regression_metrics.png)
+  ![Regression Metrics](screenshots1/06_regression_metrics.png)
 
 * **Actual vs Predicted Plot:**
-  ![Actual vs Predicted](07_lr_actual_vs_pred.png)
+  ![Actual vs Predicted](screenshots1/07_lr_actual_vs_pred.png)
 
 ---
 
@@ -43,7 +43,7 @@ A regression model was used to predict a continuous health-related variable. Eva
 
 The most impactful features were extracted using the Decision Tree model:
 
-![Feature Importance](05_feature_importance.png)
+![Feature Importance](screenshots1/05_feature_importance.png)
 
 ---
 
@@ -52,13 +52,13 @@ The most impactful features were extracted using the Decision Tree model:
 K-Means clustering was applied to group users into clusters based on their health profile.
 
 * **Elbow Method:**
-  ![KMeans Elbow](08_kmeans_elbow.png)
+  ![KMeans Elbow](screenshots1/08_kmeans_elbow.png)
 
 * **Silhouette Scores:**
-  ![KMeans Silhouette](09_kmeans_silhouette.png)
+  ![KMeans Silhouette](screenshots1/09_kmeans_silhouette.png)
 
 * **Final Clusters Visualization (with PCA):**
-  ![KMeans Clusters](10_kmeans_clusters.png)
+  ![KMeans Clusters](screenshots1/10_kmeans_clusters.png)
 
 ---
 
