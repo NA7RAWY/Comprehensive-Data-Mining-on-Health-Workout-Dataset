@@ -1,6 +1,6 @@
 # Health & Fitness Data Mining
 
-This project explores various machine learning and data mining techniques on a health and fitness dataset. The analysis covers supervised learning (classification & regression) and unsupervised learning (clustering), along with visualizations and evaluation metrics.
+This project explores various machine learning and data mining techniques on a health and fitness dataset. The analysis covers supervised learning (classification & regression), unsupervised learning (clustering), and pattern discovery (association rules), along with visualizations and evaluation metrics.
 
 ## 📊 Dataset Overview
 
@@ -17,13 +17,19 @@ A Decision Tree model was trained to classify health conditions.
 * **Accuracy:** 90%
 
 * **Confusion Matrix:**
-
-  ![Confusion Matrix - Plot](screenshots1/04_dt_conf_matrix_plot.png)
-  ![Confusion Matrix - Text](screenshots1/03_dt_conf_matrix_text.png)
+  ![Confusion Matrix - Plot](screenshots1/04_classification_conf_matrix_plot.png)
+  ![Confusion Matrix - Text](screenshots1/03_classification_conf_matrix_text.png)
 
 * **Classification Report:**
+  ![Classification Report](screenshots1/05_classification_report.png)
 
-  !\[Classification Report]\(Screenshot 2025-06-23 163851.png)
+---
+
+## 📉 Feature Importance
+
+The most impactful features were extracted using the Decision Tree model:
+
+![Feature Importance](screenshots1/06_feature_importance.png)
 
 ---
 
@@ -31,19 +37,14 @@ A Decision Tree model was trained to classify health conditions.
 
 A regression model was used to predict a continuous health-related variable. Evaluation metrics:
 
+* **Report:**
+  ![Regression Report](screenshots1/07_regression_report.png)
+
 * **Metrics:**
-  ![Regression Metrics](screenshots1/06_regression_metrics.png)
+  ![Regression Metrics](screenshots1/08_regression_metrics.png)
 
 * **Actual vs Predicted Plot:**
-  ![Actual vs Predicted](screenshots1/07_lr_actual_vs_pred.png)
-
----
-
-## 🔍 Feature Importance
-
-The most impactful features were extracted using the Decision Tree model:
-
-![Feature Importance](screenshots1/05_feature_importance.png)
+  ![Actual vs Predicted](screenshots1/09_regression_actual_vs_pred.png)
 
 ---
 
@@ -52,13 +53,28 @@ The most impactful features were extracted using the Decision Tree model:
 K-Means clustering was applied to group users into clusters based on their health profile.
 
 * **Elbow Method:**
-  ![KMeans Elbow](screenshots1/08_kmeans_elbow.png)
+  ![KMeans Elbow](screenshots1/10_kmeans_elbow.png)
 
 * **Silhouette Scores:**
-  ![KMeans Silhouette](screenshots1/09_kmeans_silhouette.png)
+  ![KMeans Silhouette](screenshots1/11_kmeans_silhouette.png)
 
 * **Final Clusters Visualization (with PCA):**
-  ![KMeans Clusters](screenshots1/10_kmeans_clusters.png)
+  ![KMeans Clusters](screenshots1/12_kmeans_clusters.png)
+
+---
+
+## 🧾 Association Rules
+
+Both Apriori and FP-Growth algorithms were used for mining association rules from transactional health data.
+
+* **Rules Output:**
+  ![Output](screenshots1/13_apriori_vs_fpgrowth_output.png)
+
+* **Support & Confidence Comparison:**
+  ![Support-Confidence](screenshots1/14_apriori_fpgrowth_support_confidence.png)
+
+* **Execution Time Comparison:**
+  ![Time Comparison](screenshots1/15_apriori_fpgrowth_time_comparison.png)
 
 ---
 
@@ -71,4 +87,4 @@ K-Means clustering was applied to group users into clusters based on their healt
 
 ## ✅ Conclusion
 
-This project demonstrates an end-to-end machine learning workflow including preprocessing, modeling, evaluation, and visualization for health and fitness data. It highlights how data mining techniques can extract actionable insights to improve wellness and lifestyle.
+This project demonstrates a full machine learning pipeline including data preparation, model building, evaluation, and visualization. It highlights how data mining techniques can provide valuable insights to improve health and fitness decisions.
