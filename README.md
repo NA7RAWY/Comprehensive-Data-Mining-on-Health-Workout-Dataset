@@ -38,13 +38,10 @@ The most impactful features were extracted using the Decision Tree model:
 A regression model was used to predict a continuous health-related variable. Evaluation metrics:
 
 * **Report:**
-  ![Regression Report](screenshots1/07_regression_report.png)
-
-* **Metrics:**
-  ![Regression Metrics](screenshots1/08_regression_metrics.png)
+  ![Regression Report](screenshots1/06_feature_importance.png)
 
 * **Actual vs Predicted Plot:**
-  ![Actual vs Predicted](screenshots1/09_regression_actual_vs_pred.png)
+  ![Actual vs Predicted](screenshots1/08_regression_actual_vs_pred.png)
 
 ---
 
@@ -53,13 +50,13 @@ A regression model was used to predict a continuous health-related variable. Eva
 K-Means clustering was applied to group users into clusters based on their health profile.
 
 * **Elbow Method:**
-  ![KMeans Elbow](screenshots1/10_kmeans_elbow.png)
+  ![KMeans Elbow](screenshots1/09_kmeans_elbow.png)
 
 * **Silhouette Scores:**
-  ![KMeans Silhouette](screenshots1/11_kmeans_silhouette.png)
+  ![KMeans Silhouette](screenshots1/10_kmeans_silhouette.png)
 
 * **Final Clusters Visualization (with PCA):**
-  ![KMeans Clusters](screenshots1/12_kmeans_clusters.png)
+  ![KMeans Clusters](screenshots1/11_kmeans_clusters.png)
 
 ---
 
@@ -68,13 +65,13 @@ K-Means clustering was applied to group users into clusters based on their healt
 Both Apriori and FP-Growth algorithms were used for mining association rules from transactional health data.
 
 * **Rules Output:**
-  ![Output](screenshots1/13_apriori_vs_fpgrowth_output.png)
+  ![Output](screenshots1/12_apriori_vs_fpgrowth_output.png)
 
 * **Support & Confidence Comparison:**
-  ![Support-Confidence](screenshots1/14_apriori_fpgrowth_support_confidence.png)
+  ![Support-Confidence](screenshots1/13_apriori_fpgrowth_support_confidence.png)
 
 * **Execution Time Comparison:**
-  ![Time Comparison](screenshots1/15_apriori_fpgrowth_time_comparison.png)
+  ![Time Comparison](screenshots1/14_apriori_fpgrowth_time_comparison.png)
 
 ---
 
