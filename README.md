@@ -33,7 +33,7 @@ A regression model was used to predict a continuous health-related variable. Eva
   ![Regression Report](screenshots1/06_feature_importance.png)
 
 * **Actual vs Predicted Plot:**
-  ![Actual vs Predicted](screenshots1/08_regression_actual_vs_pred.png)
+  ![Actual vs Predicted](screenshots1/08_regression_actual_vs_pred.png.png)
 
 ---
 
@@ -48,7 +48,7 @@ K-Means clustering was applied to group users into clusters based on their healt
   ![KMeans Silhouette](screenshots1/10_kmeans_silhouette.png)
 
 * **Final Clusters Visualization (with PCA):**
-  ![KMeans Clusters](screenshots1/11_kmeans_clusters.png)
+  ![KMeans Clusters](screenshots1/11_kmeans_clusters.png.png)
 
 ---
 
