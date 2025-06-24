@@ -25,14 +25,6 @@ A Decision Tree model was trained to classify health conditions.
 
 ---
 
-## 📉 Feature Importance
-
-The most impactful features were extracted using the Decision Tree model:
-
-![Feature Importance](screenshots1/06_feature_importance.png)
-
----
-
 ## 📈 Regression Analysis
 
 A regression model was used to predict a continuous health-related variable. Evaluation metrics:
